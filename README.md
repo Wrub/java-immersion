@@ -8,7 +8,7 @@
 - Class 04 - Creating own API with Spring
 - Class 05 - Publishing API in Cloud service
 
-### Class Summary
+## Class Summary
 
 **Class 1:**
 
