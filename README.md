@@ -20,4 +20,10 @@
 
 ![Top 10 movies](results/resultjavaclass1.png)
 
-**Class 2:** Loading... :soon:
+**Class 2:**
+
+- Making the Sticker generator using different input streams.
+- Setting a new image with text, using the iconic phrase from Cristiano Ronaldo: "Eu sou o 'milhor'" :rofl:
+- Creating a output sticker directory if it doesn't exist, refactoring App.java and making new data manipulations.
+
+![Sticker](results/resultsClass02.png)
