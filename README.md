@@ -2,6 +2,8 @@
 
 ## Class Schedule
 
+:point_right: **Obs: The classes are divided into branches**
+
 - Class 01 - Consuming a Movie API with Java
 - Class 02 - Movies Stickers for WhatsApp
 - Class 03 - Refactoring and object-orientation
