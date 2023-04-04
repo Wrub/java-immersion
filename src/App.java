@@ -12,7 +12,7 @@ import java.util.Map;
 public class App {
 
 	public static void main(String[] args) throws Exception {
-		// conexao http, chamando os top filmes no no json
+		// http connection, calling top movies
 		String url = "https://raw.githubusercontent.com/alura-cursos/imersao-java-2-api/main/TopMovies.json";
 		URI endereco = URI.create(url);
 		HttpClient cliente = HttpClient.newHttpClient();
@@ -21,15 +21,15 @@ public class App {
 		String body = response.body();
 		System.out.println(body);
 
-		// parseando os dados que interessam (titulo, capa do filme e classificação)
+		// data parsing
 		JsonParser parser = new JsonParser();
 		List<Map<String, String>> listaDeFilmes = parser.parse(body);
 
-		// criando diretório de figurinhas
+		// creating sticker directory
 		File directory = new File("stickers/");
 		directory.mkdir();
 
-		// exibição e manipulação dos dados
+		// data manipulation and visualization
 		stickerGenerator stickerGenerator = new stickerGenerator();
 		for (Map<String, String> filme : listaDeFilmes) {
 
